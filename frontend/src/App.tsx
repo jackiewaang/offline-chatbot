@@ -43,7 +43,7 @@ function App() {
 
   return (
     <div className="h-screen flex justify-center items-center">
-      <Card className="min-w-3xl">
+      <Card className="sm:min-w-[320px] sm:max-w-[80%] md:max-w-[50%]">
         <CardHeader>
           <CardTitle className="text-2xl font-bold">Chatbot</CardTitle>
           <CardDescription>Ask me any question!</CardDescription>
